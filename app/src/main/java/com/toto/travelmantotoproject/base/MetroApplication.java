@@ -9,7 +9,7 @@ import dagger.Component;
 
 // Definition of the Application graph
 @Component
-interface ApplicationComponent {
+interface  ApplicationComponent {
     void inject(MapsActivity mapsActivity);
 }
 public class MetroApplication extends Application {

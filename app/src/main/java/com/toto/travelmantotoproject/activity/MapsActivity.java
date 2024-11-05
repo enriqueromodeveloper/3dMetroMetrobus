@@ -46,6 +46,7 @@ import com.toto.travelmantotoproject.model.TransportingLine;
 import com.toto.travelmantotoproject.opengl.render.OpenGLObjectRenderer;
 import com.toto.travelmantotoproject.opengl.render.OpenGLRenderer;
 import com.toto.travelmantotoproject.R;
+import com.toto.travelmantotoproject.utils.Properties;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,6 +74,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+        int property = Properties.Companion.getProperty();
 
 
         metroButton = findViewById(R.id.metroButton);

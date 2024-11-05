@@ -1,4 +1,4 @@
 package com.toto.travelmantotoproject.base;
 
-interface RetrofitService {
+public interface RetrofitService {
 }
